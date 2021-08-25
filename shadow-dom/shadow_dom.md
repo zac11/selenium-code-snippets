@@ -29,7 +29,7 @@ Let us consider a very simple example of an HTML page
 ```
 
 As mentioned in the above mentioned definition, a logical tree of the this HTML structure would look this this
-![Image](/Users/zac/Downloads/dom.png)
+[Image](https://i0.wp.com/cosmocode.io/wp-content/uploads/2020/05/dom.png?resize=768%2C697&ssl=1)
 
 Image and HTML code credits - [Link](https://cosmocode.io/how-to-interact-with-shadow-dom-in-selenium/)
 
@@ -43,7 +43,7 @@ or kept separate from other part of the DOM.
 Shadow DOM allows hidden DOM trees to be attached to elements in the regular DOM tree — this shadow DOM tree starts 
 with a shadow root, underneath which can be attached to any elements you want, in the same way as the normal DOM.
 
-![DOM](/Users/zac/Downloads/shadow-dom.png)
+![DOM](https://i2.wp.com/mdn.mozillademos.org/files/15788/shadow-dom.png?w=1100&ssl=1)
 
 There are some bits of shadow DOM terminology to be aware of:
 
