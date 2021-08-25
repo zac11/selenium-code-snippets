@@ -30,7 +30,7 @@ Let us consider a very simple example of an HTML page
 
 As mentioned in the above mentioned definition, a logical tree of the this HTML structure would look this this
 
-[Image](https://i0.wp.com/cosmocode.io/wp-content/uploads/2020/05/dom.png?resize=768%2C697&ssl=1)
+[DOM-1](https://i0.wp.com/cosmocode.io/wp-content/uploads/2020/05/dom.png?resize=768%2C697&ssl=1)
 
 
 Image and HTML code credits - [Link](https://cosmocode.io/how-to-interact-with-shadow-dom-in-selenium/)
