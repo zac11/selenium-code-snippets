@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="887dfb8c-8255-4d71-956b-b9dd3810967d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/shadow-dom/shadow_dom.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shadow-dom/shadow_dom.md" beforeDir="false" afterPath="$PROJECT_DIR$/shadow-dom/shadow_dom.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -194,7 +194,14 @@
       <option name="project" value="LOCAL" />
       <updated>1629879754768</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Shadow DOM - Multi layer shadow dom">
+      <created>1629915031855</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1629915031855</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -213,6 +220,7 @@
     <MESSAGE value="Initial commit" />
     <MESSAGE value="Grid Changes" />
     <MESSAGE value="Infinite scroll changes - added Selenium 3 specifics" />
-    <option name="LAST_COMMIT_MESSAGE" value="Infinite scroll changes - added Selenium 3 specifics" />
+    <MESSAGE value="Shadow DOM - Multi layer shadow dom" />
+    <option name="LAST_COMMIT_MESSAGE" value="Shadow DOM - Multi layer shadow dom" />
   </component>
 </project>
