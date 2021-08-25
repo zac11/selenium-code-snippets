@@ -4,15 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="887dfb8c-8255-4d71-956b-b9dd3810967d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Sel4/sel4_1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chrome_geo_loc/geoloc.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ignoressl/ignore_ssl_2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ignoressl/ignore_ssl_error.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/network-req/net-req.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resize/win-resize-2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resize/win-resize.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/whitespace/multi-whitespace.py" afterDir="false" />
+    <list default="true" id="887dfb8c-8255-4d71-956b-b9dd3810967d" name="Changes" comment="Initial commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
