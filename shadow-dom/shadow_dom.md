@@ -98,3 +98,70 @@ in the parent DOM. There might be multiple `shadow-dom` inside the parent DOM an
 
 ## MULTIPLE or NESTED SHADOW DOM
 
+Now consider this screenshot given below -
+
+![Image](/Users/zac/Desktop/Screenshot 2021-08-26 at 8.40.03 PM.png)
+
+As you can see there are multiple `shadow-dom` elements in this piece of code - where  in there are nested layers
+of `shadow-dom`. Now the problem with first approach discussed here is there it if we try to access the contents of the 
+nested `shadow-dom`, we cannot do that unless we expand the parent level `shadow-dom`. 
+
+So in order to solve this issue, we need to expand multiple levels of `shadow-dom` trees to get to the desired element.
+
+Now we can approach this in two ways -
+
+- APPROACH 1
+
+What we can do it combine a sequence of statements , which uses the hard-code way of appending the `shadow-dom` JS query
+For eg - let's say we want to click on the Detection tab on this given [URL](https://www.virustotal.com/gui/file/03d1316407796b32c03f17f819cca5bede2b0504ecdb7ba3b845c1ed618ae934/details)
+
+If we see the dom structure, we can use this query
+
+```buildoutcfg
+search_button = driver.execute_script('return document.querySelector("file-view").shadowRoot.querySelector("report").shadowRoot.querySelector("vt-ui-button[data-route="detection"]")
+search_button.click()
+
+```
+
+However, this is very generic and has a lot of hard-coded elements, which makes this selector very brittle. However 
+this is not incorrect, just not an optimised way of solving this issue.
+
+- APPROACH 2
+
+We'll create one function - that will expand the parent `shadow-dom` tree 
+
+```buildoutcfg
+def expand_shadow_root(element):
+    shadow_root = driver.execute_script('return arguments[0].shadowRoot', element)
+    return shadow_root
+
+```
+Upon calling on multiple iterations on the nested `shadow-dom` elements, this will expand the parent `shadow-dom`,
+and then try to find any element if we want inside it and then perform any action on that element.
+
+For the `Detection` tab click, 
+- First we expand the `shadow-root` below the element with id `file-view`
+
+```buildoutcfg
+root2 = driver.find_element(By.ID,'file-view')
+shadow_root_2 = expand_shadow_root(root2)
+``` 
+- Next, we expand the `shadow-dom` below the element with id `report`
+
+```buildoutcfg
+root3 = shadow_root_2.find_element(By.ID,'report')
+shadow_root_3 = expand_shadow_root(root3)
+```
+
+Now the element that we want to click is inside the `shadow-dom`,so we'll use the following locator to find the
+element and then click on it
+
+```buildoutcfg
+root4 = shadow_root_3.find_element(By.CSS_SELECTOR,'vt-ui-button[data-route="detection"]')
+root4.click()
+```
+
+Try running this script on the system and it will click on the `Detection` tab successfully.
+
+Note - The code is written as per the changes for Selenium 4 (which is in final beta now), and that is why there may be
+some subtle changes in how Chromedriver is initialised.
