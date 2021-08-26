@@ -1,5 +1,4 @@
 # SHADOW DOM
-For reference - https://stackoverflow.com/questions/37384458/how-to-handle-elements-inside-shadow-dom-from-selenium
 
 # DOM
 Before understanding the concept of Shadow DOM, let us take a quick look at what DOM means. DOM is an abbreviation
@@ -165,3 +164,7 @@ Try running this script on the system and it will click on the `Detection` tab s
 
 Note - The code is written as per the changes for Selenium 4 (which is in final beta now), and that is why there may be
 some subtle changes in how Chromedriver is initialised.
+
+References -
+- Link 1 - https://stackoverflow.com/questions/37384458/how-to-handle-elements-inside-shadow-dom-from-selenium
+- AUT - https://www.virustotal.com/gui/file/03d1316407796b32c03f17f819cca5bede2b0504ecdb7ba3b845c1ed618ae934/details
