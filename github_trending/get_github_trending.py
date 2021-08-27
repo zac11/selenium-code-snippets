@@ -10,7 +10,7 @@ from webdriver_manager.chrome import ChromeDriverManager
 svc=Service(ChromeDriverManager().install())
 driver = webdriver.Chrome(service=svc)
 driver.maximize_window()
-driver.get("https://github.com/trending")
+driver.get("https://www.spacresearch.com/symbol?s=live-deal&sector=&geography=")
 
 wait = WebDriverWait(driver, 20)
 #time.sleep(10)
