@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="887dfb8c-8255-4d71-956b-b9dd3810967d" name="Changes" comment="Pop ups and Dummy">
-      <change afterPath="$PROJECT_DIR$/headless/chm_headless.py" afterDir="false" />
+    <list default="true" id="887dfb8c-8255-4d71-956b-b9dd3810967d" name="Changes" comment="Headless browser using Selenium RC-1 and also update requirements.txt to use Selenium RC-1">
+      <change afterPath="$PROJECT_DIR$/infinite-scroll/chinese_scroll_stackoverflow.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dummy.py" beforeDir="false" afterPath="$PROJECT_DIR$/dummy.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/github_trending/get_github_trending.py" beforeDir="false" afterPath="$PROJECT_DIR$/github_trending/get_github_trending.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/network-req/net-req.py" beforeDir="false" afterPath="$PROJECT_DIR$/network-req/net-req.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +43,28 @@
       <recent name="$PROJECT_DIR$/github_trending" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.chm_headless">
+  <component name="RunManager" selected="Python.net-req">
+    <configuration name="chinese_scroll_stackoverflow" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="selenium-code-snippets" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/infinite-scroll" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/infinite-scroll/chinese_scroll_stackoverflow.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="chm_headless" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="selenium-code-snippets" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -109,7 +128,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="noob" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="net-req" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="selenium-code-snippets" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -117,32 +136,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/network-req" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/noob.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="scrape_req" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="selenium-code-snippets" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/scrape" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/scrape/scrape_req.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/network-req/net-req.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -153,11 +151,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.net-req" />
+        <item itemvalue="Python.chinese_scroll_stackoverflow" />
         <item itemvalue="Python.chm_headless" />
         <item itemvalue="Python.get_github_trending" />
         <item itemvalue="Python.dummy" />
-        <item itemvalue="Python.noob" />
-        <item itemvalue="Python.scrape_req" />
       </list>
     </recent_temporary>
   </component>
@@ -233,7 +231,14 @@
       <option name="project" value="LOCAL" />
       <updated>1630500765030</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Headless browser using Selenium RC-1 and also update requirements.txt to use Selenium RC-1">
+      <created>1631413839069</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1631413839069</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -256,6 +261,7 @@
     <MESSAGE value="Shadow DOM - Multi layer shadow dom - Updated Readme" />
     <MESSAGE value="Enable and Disable Push Notifications and one Stack Overflow question for Scraping" />
     <MESSAGE value="Pop ups and Dummy" />
-    <option name="LAST_COMMIT_MESSAGE" value="Pop ups and Dummy" />
+    <MESSAGE value="Headless browser using Selenium RC-1 and also update requirements.txt to use Selenium RC-1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Headless browser using Selenium RC-1 and also update requirements.txt to use Selenium RC-1" />
   </component>
 </project>
