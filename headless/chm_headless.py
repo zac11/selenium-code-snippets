@@ -12,6 +12,8 @@ driver = webdriver.Chrome(service=svc,options=options)
 driver.set_window_size(1400,900)
 driver.get("https://www.ouedkniss.com/")
 wait = WebDriverWait(driver,30)
+elekhush = driver.find_element(By.CSS_SELECTOR,"img[src='/img/logo-light-h-w.6114af0d.svg']")
+elekhush.screenshot("khali_pili.png")
 wait.until(EC.visibility_of_element_located((By.ID,'menu_recherche_query')))
 
 search_bar = driver.find_element(By.ID,'menu_recherche_query')

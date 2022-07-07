@@ -4,9 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="887dfb8c-8255-4d71-956b-b9dd3810967d" name="Changes" comment="Stackoverflow questions">
-      <change afterPath="$PROJECT_DIR$/Sel4/new_tab.py" afterDir="false" />
+    <list default="true" id="887dfb8c-8255-4d71-956b-b9dd3810967d" name="Changes" comment="Selenium 4 - tabs and window switch">
+      <change afterPath="$PROJECT_DIR$/sanjay_test1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/element_screenshot.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/full_page_scr.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/headless/chm_headless.py" beforeDir="false" afterPath="$PROJECT_DIR$/headless/chm_headless.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +45,7 @@
       <recent name="$PROJECT_DIR$/github_trending" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.new_tab">
+  <component name="RunManager" selected="Python.element_screenshot">
     <configuration name="chinese_scroll_stackoverflow" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="selenium-code-snippets" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -85,7 +88,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="net-req" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="element_screenshot" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="selenium-code-snippets" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -93,11 +96,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/network-req" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/screenshots" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/network-req/net-req.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/screenshots/element_screenshot.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -106,7 +109,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="new_tab" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="full_page_scr" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="selenium-code-snippets" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -114,11 +117,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Sel4" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/screenshots" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Sel4/new_tab.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/screenshots/full_page_scr.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -127,7 +130,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="q-69430256" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="sanjay_test1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="selenium-code-snippets" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -135,11 +138,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/stackoverflow" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/stackoverflow/q-69430256.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/sanjay_test1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -150,11 +153,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.new_tab" />
-        <item itemvalue="Python.q-69430256" />
-        <item itemvalue="Python.net-req" />
-        <item itemvalue="Python.chinese_scroll_stackoverflow" />
+        <item itemvalue="Python.element_screenshot" />
+        <item itemvalue="Python.full_page_scr" />
         <item itemvalue="Python.chm_headless" />
+        <item itemvalue="Python.chinese_scroll_stackoverflow" />
+        <item itemvalue="Python.sanjay_test1" />
       </list>
     </recent_temporary>
   </component>
@@ -251,7 +254,14 @@
       <option name="project" value="LOCAL" />
       <updated>1633317354857</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Selenium 4 - tabs and window switch">
+      <created>1634543235079</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1634543235079</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -277,6 +287,7 @@
     <MESSAGE value="Headless browser using Selenium RC-1 and also update requirements.txt to use Selenium RC-1" />
     <MESSAGE value="Scraping questions and some new ones" />
     <MESSAGE value="Stackoverflow questions" />
-    <option name="LAST_COMMIT_MESSAGE" value="Stackoverflow questions" />
+    <MESSAGE value="Selenium 4 - tabs and window switch" />
+    <option name="LAST_COMMIT_MESSAGE" value="Selenium 4 - tabs and window switch" />
   </component>
 </project>
