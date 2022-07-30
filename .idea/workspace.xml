@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="887dfb8c-8255-4d71-956b-b9dd3810967d" name="Changes" comment="Selenium 4 - tabs and window switch">
-      <change afterPath="$PROJECT_DIR$/sanjay_test1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshots/element_screenshot.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshots/full_page_scr.py" afterDir="false" />
+    <list default="true" id="887dfb8c-8255-4d71-956b-b9dd3810967d" name="Changes" comment="Selenium 4 - Screenshots and element screenshot">
+      <change afterPath="$PROJECT_DIR$/stackoverflow/q-73173658.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/headless/chm_headless.py" beforeDir="false" afterPath="$PROJECT_DIR$/headless/chm_headless.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,28 +42,7 @@
       <recent name="$PROJECT_DIR$/github_trending" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.element_screenshot">
-    <configuration name="chinese_scroll_stackoverflow" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="selenium-code-snippets" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/infinite-scroll" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/infinite-scroll/chinese_scroll_stackoverflow.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.q-73173658">
     <configuration name="chm_headless" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="selenium-code-snippets" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -130,7 +106,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="sanjay_test1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="get_github_trending" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="selenium-code-snippets" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -138,11 +114,32 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/github_trending" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/sanjay_test1.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/github_trending/get_github_trending.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="q-73173658" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="selenium-code-snippets" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/stackoverflow" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/stackoverflow/q-73173658.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -153,11 +150,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.q-73173658" />
+        <item itemvalue="Python.get_github_trending" />
         <item itemvalue="Python.element_screenshot" />
         <item itemvalue="Python.full_page_scr" />
         <item itemvalue="Python.chm_headless" />
-        <item itemvalue="Python.chinese_scroll_stackoverflow" />
-        <item itemvalue="Python.sanjay_test1" />
       </list>
     </recent_temporary>
   </component>
@@ -261,7 +258,14 @@
       <option name="project" value="LOCAL" />
       <updated>1634543235079</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Selenium 4 - Screenshots and element screenshot">
+      <created>1657171785528</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1657171785528</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -288,6 +292,7 @@
     <MESSAGE value="Scraping questions and some new ones" />
     <MESSAGE value="Stackoverflow questions" />
     <MESSAGE value="Selenium 4 - tabs and window switch" />
-    <option name="LAST_COMMIT_MESSAGE" value="Selenium 4 - tabs and window switch" />
+    <MESSAGE value="Selenium 4 - Screenshots and element screenshot" />
+    <option name="LAST_COMMIT_MESSAGE" value="Selenium 4 - Screenshots and element screenshot" />
   </component>
 </project>
