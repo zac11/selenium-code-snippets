@@ -4,9 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="887dfb8c-8255-4d71-956b-b9dd3810967d" name="Changes" comment="Selenium 4 - Answer stack overflow question id - 73173658">
-      <change afterPath="$PROJECT_DIR$/stackoverflow/q-73452886.py" afterDir="false" />
+    <list default="true" id="887dfb8c-8255-4d71-956b-b9dd3810967d" name="Changes" comment="Selenium 4 - Answer stack overflow question id - 73452886">
+      <change afterPath="$PROJECT_DIR$/maximise_windows/maximise_window_option2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/maximise_windows/maximise_window_option3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/maximise_windows/maximise_window_option4.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/maximise_windows/maximise_window_option6.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/maximise_windows/maximise_window_option7.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/maximise_windows/maximise_windows.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/maximise_windows/maximize_window_option5.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stackoverflow/q-73452886.py" beforeDir="false" afterPath="$PROJECT_DIR$/stackoverflow/q-73452886.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,8 +50,8 @@
       <recent name="$PROJECT_DIR$/github_trending" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.q-73452886">
-    <configuration name="element_screenshot" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.maximise_window_option7">
+    <configuration name="maximise_window_option2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="selenium-code-snippets" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -51,11 +59,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/screenshots" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/maximise_windows" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/screenshots/element_screenshot.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/maximise_windows/maximise_window_option2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -64,7 +72,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="full_page_scr" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="maximise_window_option4" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="selenium-code-snippets" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -72,11 +80,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/screenshots" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/maximise_windows" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/screenshots/full_page_scr.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/maximise_windows/maximise_window_option4.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -85,7 +93,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="get_github_trending" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="maximise_window_option6" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="selenium-code-snippets" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -93,11 +101,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/github_trending" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/maximise_windows" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/github_trending/get_github_trending.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/maximise_windows/maximise_window_option6.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -106,7 +114,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="q-73173658" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="maximise_window_option7" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="selenium-code-snippets" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -114,11 +122,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/stackoverflow" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/maximise_windows" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/stackoverflow/q-73173658.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/maximise_windows/maximise_window_option7.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -127,7 +135,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="q-73452886" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="maximize_window_option5" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="selenium-code-snippets" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -135,11 +143,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/stackoverflow" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/maximise_windows" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/stackoverflow/q-73452886.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/maximise_windows/maximize_window_option5.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -150,11 +158,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.q-73452886" />
-        <item itemvalue="Python.q-73173658" />
-        <item itemvalue="Python.get_github_trending" />
-        <item itemvalue="Python.element_screenshot" />
-        <item itemvalue="Python.full_page_scr" />
+        <item itemvalue="Python.maximise_window_option7" />
+        <item itemvalue="Python.maximise_window_option2" />
+        <item itemvalue="Python.maximise_window_option6" />
+        <item itemvalue="Python.maximize_window_option5" />
+        <item itemvalue="Python.maximise_window_option4" />
       </list>
     </recent_temporary>
   </component>
@@ -272,7 +280,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659168314259</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Selenium 4 - Answer stack overflow question id - 73452886">
+      <created>1661241060997</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1661241060997</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -301,6 +316,7 @@
     <MESSAGE value="Selenium 4 - tabs and window switch" />
     <MESSAGE value="Selenium 4 - Screenshots and element screenshot" />
     <MESSAGE value="Selenium 4 - Answer stack overflow question id - 73173658" />
-    <option name="LAST_COMMIT_MESSAGE" value="Selenium 4 - Answer stack overflow question id - 73173658" />
+    <MESSAGE value="Selenium 4 - Answer stack overflow question id - 73452886" />
+    <option name="LAST_COMMIT_MESSAGE" value="Selenium 4 - Answer stack overflow question id - 73452886" />
   </component>
 </project>

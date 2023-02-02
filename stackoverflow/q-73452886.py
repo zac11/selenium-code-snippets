@@ -9,7 +9,7 @@ from selenium.webdriver.common.by import By
 
 svc = Service(ChromeDriverManager().install())
 driver = webdriver.Chrome(service=svc)
-driver.maximize_window()
+driver.fullscreen_window()
 
 def highlight(element):
     """Highlights a Selenium webdriver element"""
@@ -29,7 +29,7 @@ time.sleep(5)
 size_elem = driver.find_element(By.CSS_SELECTOR,"label[for='product-single__swatch-product-template-1-us7-5w-us6y']")
 
 highlight(size_elem)
-
+driver.find_element(By.ID, "element")
 size_elem.click()
 time.sleep(5)
 
