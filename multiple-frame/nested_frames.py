@@ -45,6 +45,7 @@ for index in range(len(seq)):
 
 
 
-
+driver.switch_to.default_content()
 
 driver.quit()
+
