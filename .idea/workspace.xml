@@ -5,13 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="887dfb8c-8255-4d71-956b-b9dd3810967d" name="Changes" comment="Selenium 4 - Resizing and maximising options - de facto method">
+      <change afterPath="$PROJECT_DIR$/exceptions/ElementNotInteractable.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exceptions/InvalidArgument.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exceptions/InvalidSessionId.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/monkey_testing/monkey_testing.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pageLoadStrategy/load_eager.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pageLoadStrategy/load_normal.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/maximise_windows/maximise_window_option2.py" beforeDir="false" afterPath="$PROJECT_DIR$/maximise_windows/maximise_window_option2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/maximise_windows/maximise_window_option3.py" beforeDir="false" afterPath="$PROJECT_DIR$/maximise_windows/maximise_window_option3.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/maximise_windows/maximise_window_option4.py" beforeDir="false" afterPath="$PROJECT_DIR$/maximise_windows/maximise_window_option4.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/maximise_windows/maximise_window_option6.py" beforeDir="false" afterPath="$PROJECT_DIR$/maximise_windows/maximise_window_option6.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/maximise_windows/maximise_window_option7.py" beforeDir="false" afterPath="$PROJECT_DIR$/maximise_windows/maximise_window_option7.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/multiple-frame/nested_frames.py" beforeDir="false" afterPath="$PROJECT_DIR$/multiple-frame/nested_frames.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chrome_geo_loc/geoloc.py" beforeDir="false" afterPath="$PROJECT_DIR$/chrome_geo_loc/geoloc.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/headless/chm_headless.py" beforeDir="false" afterPath="$PROJECT_DIR$/headless/chm_headless.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,12 +45,13 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/monkey_testing" />
       <recent name="$PROJECT_DIR$/pop-ups" />
       <recent name="$PROJECT_DIR$/github_trending" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.maximise_window_option2">
-    <configuration name="maximise_window_option2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.InvalidSessionId">
+    <configuration name="ElementNotInteractable" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="selenium-code-snippets" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -56,11 +59,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/maximise_windows" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/exceptions" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/maximise_windows/maximise_window_option2.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/exceptions/ElementNotInteractable.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -69,7 +72,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="maximise_window_option4" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="InvalidArgument" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="selenium-code-snippets" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -77,11 +80,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/maximise_windows" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/exceptions" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/maximise_windows/maximise_window_option4.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/exceptions/InvalidArgument.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -90,7 +93,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="maximise_window_option6" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="InvalidSessionId" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="selenium-code-snippets" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -98,11 +101,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/maximise_windows" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/exceptions" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/maximise_windows/maximise_window_option6.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/exceptions/InvalidSessionId.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -111,7 +114,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="maximise_window_option7" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="ag-grid" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="selenium-code-snippets" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -119,11 +122,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/maximise_windows" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ag-grid" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/maximise_windows/maximise_window_option7.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ag-grid/ag-grid.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -132,7 +135,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="maximise_windows" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="win-resize" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="selenium-code-snippets" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -140,11 +143,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/maximise_windows" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/resize" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/maximise_windows/maximise_windows.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/resize/win-resize.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -155,11 +158,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.maximise_window_option2" />
-        <item itemvalue="Python.maximise_window_option4" />
-        <item itemvalue="Python.maximise_windows" />
-        <item itemvalue="Python.maximise_window_option7" />
-        <item itemvalue="Python.maximise_window_option6" />
+        <item itemvalue="Python.InvalidSessionId" />
+        <item itemvalue="Python.InvalidArgument" />
+        <item itemvalue="Python.ElementNotInteractable" />
+        <item itemvalue="Python.win-resize" />
+        <item itemvalue="Python.ag-grid" />
       </list>
     </recent_temporary>
   </component>

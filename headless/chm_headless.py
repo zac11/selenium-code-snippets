@@ -17,6 +17,7 @@ elekhush.screenshot("khali_pili.png")
 wait.until(EC.visibility_of_element_located((By.ID,'menu_recherche_query')))
 
 search_bar = driver.find_element(By.ID,'menu_recherche_query')
+driver.find_element(By.PARTIAL_LINK_TEXT,"")
 search_bar.click()
 search_bar.send_keys('golf 6')
 search_button = driver.find_element(By.ID,'menu_recherche_submit')

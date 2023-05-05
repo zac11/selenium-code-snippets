@@ -18,10 +18,6 @@ driver.get('https://grofers.com/')
 time.sleep(5)
 driver.find_element(By.CSS_SELECTOR,"button[class='btn location-box mask-button']").click()
 time.sleep(5)
-'''location_selection = WebDriverWait(driver,30).until(
-    EC.presence_of_element_located((By.CSS_SELECTOR,"button[class='btn location-box mask-button']")))
-location_selection.click()'''
-
 driver.execute_cdp_cmd('Emulation.setGeolocationOverride',params)
 time.sleep(5)
 
